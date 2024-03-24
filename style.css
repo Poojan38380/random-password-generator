@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+input:focus-visible {
+  outline: 0;
+}
+
+.main {
+  background-color: #c6ebbe;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  min-width: 400px;
+  padding: 10px;
+  /* box-shadow: 0 4px 10px rgb(0 0 0 / 50%); */
+  background: #a9dbb8;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#pass-box {
+  width: 100%;
+  display: block;
+  background-color: #c6ebbe;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #020887;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  color: 020887;
+  font-size: 20px;
+}
+
+label {
+  user-select: none;
+}
+
+#btn {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 20px;
+  outline: 0;
+  border: 0;
+  padding: 10px;
+  background-color: #020887;
+  color: #c6ebbe;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 20%);
+}
+
+#btn-copy {
+  width: auto;
+  text-transform: uppercase;
+  font-size: 17px;
+  outline: 0;
+  border: 0;
+  padding: 5px 20px;
+  background-color: #020887;
+  color: #c6ebbe;
+  margin-top: 5px;
+  border-radius: 25px;
+  margin: auto;
+}
+
+#btn:hover,
+#btn-copy:hover {
+  cursor: pointer;
+  scale: 1.01;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+}
+#totalchar {
+  width: 100%;
+  font-style: 20px;
+  outline: 0;
+  border: 0;
+  background-color: #34495e;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 10%);
+}
+#totalchar:hover {
+  cursor: pointer;
+  scale: 1.1;
+  transition: 0.2s ease-in-out;
+}
+.left {
+  justify-content: center;
+  align-items: center;
+}
+
+.box input[type="checkbox"] {
+  scale: 2;
+  margin-right: 10px;
+}
+.box input[type="checkbox"]:hover {
+  scale: 2.5;
+  transition: 0.2s ease-in-out;
+}
